@@ -1,0 +1,65 @@
+.card {
+    display: flex;
+    padding: 0;
+    border-radius: 20px;
+    justify-content: space-between;
+    width: 390px;
+    box-shadow: 5px 5px 20px 2px rgba(165, 165, 165, 0.2);
+}
+.card__cover {
+    width: 160px;
+}
+.card__cover__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+    object-fit: cover;
+}
+
+.card__info {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+    flex-grow: 2;
+    padding: 15px;
+    /*I used line-height without researching so have to check it */
+    line-height: 0; 
+}
+
+.card__info__text {
+    /* border: 2px solid black;     */
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card__info__text__artist {
+    font-size: 25px;
+}
+
+.card__info__text__about {
+    /* border: 2px solid rgb(12, 255, 12); */
+    color: rgb(91, 91, 91);
+    font-size: 15px;
+}
+.card__info__text__about__year {
+    color: rgb(179, 179, 179);
+    font-size: 12px;
+}
+
+
+
+.card__info__text__genre{
+    background-color: rgb(241, 200, 200);
+    border-radius: 30px;
+    font-size: 12px;
+    margin-top: 5px;
+    padding: 0px 10px;
+    text-align: center;
+    align-self: baseline;
+}
+
+.card__info__like {
+    font-size: 25px;    
+    align-self: flex-end;
+}
