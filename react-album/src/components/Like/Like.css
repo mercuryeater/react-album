@@ -5,8 +5,6 @@
     background-color: transparent;
     width: 25px;
     height: 25px;
-
+    border: none;
+    outline: none;
 }
-/* 
-.card__info__like__icon {
-} */
