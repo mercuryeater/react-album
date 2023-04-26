@@ -1,4 +1,6 @@
 import "./Album.css";
+import Like from "/src/components/Like/Like.jsx";
+// react-album\src\components\Album\Album.jsx
 
 function Album({ cover, song, artist, year, genre }) {
   return (
@@ -20,12 +22,7 @@ function Album({ cover, song, artist, year, genre }) {
               <h4>{genre}</h4>
             </div>
           </div>
-          <div className="card__info__like">
-            <ion-icon
-              className="card__info__like"
-              name="heart-outline"
-            ></ion-icon>
-          </div>
+          <Like />
         </div>
       </div>
     </div>
